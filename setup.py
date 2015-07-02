@@ -43,6 +43,7 @@ setup(
     # as that's the first installed with "python setup.py install"
     install_requires=["six", "statsmodels", "brewer2mpl", "matplotlib", "scipy",
                       "patsy", "pandas", "numpy"],
+    tests_require=["mock"],
     classifiers=['Intended Audience :: Science/Research',
                  'Intended Audience :: Developers',
                  'Programming Language :: Python',
